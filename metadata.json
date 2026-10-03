@@ -1,0 +1,6 @@
+{
+  "name": "AegisScan - Security Vulnerability & Bug Auditor",
+  "description": "Automated security scanning and vulnerability auditing platform providing comprehensive DAST and SAST posture checks, OWASP Top 10 risk analysis, and actionable remediation reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
