@@ -279,7 +279,7 @@ const KNOWN_VULNERABLE_PACKAGES: Array<{
   },
   {
     name: 'axios',
-    vulnerableVersionPattern: /"axios":\s*["'][\^~]?(?:0\.(?:[0-1][0-9]|20)\.)["']/i,
+    vulnerableVersionPattern: /"axios":\s*["'][\^~]?(?:0\.(?:[0-1][0-9]|20)(?:\.[0-9]+)?)["']/i,
     cve: 'CVE-2020-28168',
     cwe: 'CWE-918',
     title: 'Axios Server-Side Request Forgery (SSRF) bypass',
